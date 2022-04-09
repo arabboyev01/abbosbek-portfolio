@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.hero .row {
+  margin-top: 100px;
+}
+
+.hero .row .col-md-4 h6 {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.hero .row .col-md-4 h1 {
+  font-size: 54px;
+  line-height: 74px;
+  font-weight: 600;
+}
+
+.who .row {
+  background-color: #F4F5F5;
+  margin: 80px 0 0 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.who .row .col-md-4 {
+  padding: 50px 0 0 0;
+}
+
+.who .row .col-md-4 h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+}
+
+@media (max-width: 920px) {
+  .who .col-md-4 {
+    margin: auto;
+    padding: 0;
+  }
+}
+
+.card .row h3 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.card .col-sm-3 {
+  border: none;
+}
+
+.card .col-sm-3 h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 70px;
+}
+
+.card .col-sm-3 p {
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.mission {
+  background-color: #EEF4FA;
+}
+
+.mission .col-md-5 label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.mission .col-md-5 h3 {
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+}
+
+.benefits .row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.benefits .row .col-md-3 {
+  background-color: #F4F6FC;
+  padding: 30px 10px;
+}
+
+.benefits .row .col-md-3 h6 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.benefits .row .col-md-3 .fas {
+  color: #2405F2;
+  font-size: 2rem;
+}
+
+.associate .d-flex {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 80px;
+}
+
+.associate .d-flex .block ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.associate .d-flex .block ul li {
+  padding: 0 15px;
+}
+
+.associate .d-flex .block ul li a {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  opacity: .6;
+}
+
+.associate .d-flex .block ul li a .fab {
+  font-size: 24px;
+}
+
+.team {
+  background-color: #F4F6FC;
+  padding: 100px 0;
+}
+
+.team .col {
+  padding: 50px 0 0 0;
+}
+
+.team .col h2 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.team .row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.team .row .col-md-3 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 2;
+  margin: 50px 0 0 0;
+}
+
+.team .row .col-md-3 .card {
+  padding: 50px;
+  border: solid transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.team .row .col-md-3 img {
+  margin-left: 20px;
+}
+
+.team .row .col-md-3 h6 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=aboutUs.css.map */

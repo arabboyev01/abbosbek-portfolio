@@ -1,0 +1,41 @@
+.page-blog{
+  .row{
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    .col-md-4{
+      h2{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 68px;
+      }
+    }
+  }
+  .row{
+    margin-bottom: 80px;
+    .col-md-4{
+      .card{
+        border: solid transparent;
+        text-align: start;
+        label{
+          font-weight: 500;
+          line-height: 28px;
+        }
+        h6{
+          font-size: 24px;
+          line-height: 36px;
+          font-weight: 600;
+        }
+        p{
+          line-height: 28px;
+          font-weight: 400;
+        }
+        .btn{
+          line-height: 28px;
+          font-weight: 400;
+          text-align: start;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.work-hero {
+  height: 416px;
+  background-color: #F4F6FC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.work-hero .col {
+  margin-top: 92px;
+}
+
+.work-hero .col ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work-hero .col ul li {
+  padding: 20px 15px;
+}
+
+.work-hero .col ul li :hover {
+  color: #2405F2 !important;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.work-hero .col ul li .fab {
+  color: #000;
+  font-size: 2rem;
+}
+
+.work-hero .col h5 {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.work-hero .col h1 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.work-hero .col p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.our-work .col {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+.our-work .col ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-work .col ul li {
+  padding: 20px 15px;
+}
+
+.our-work .col ul li :hover {
+  color: #2405f2;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.our-work .col ul li a {
+  color: #000;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.our-work .row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.our-work .row .col-md-4 .card {
+  border: solid transparent;
+}
+
+.our-work .row .col-md-4 .card h3 {
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+}
+
+.our-work .row .col-md-4 .card p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.our-work .row .col-md-4 .card .btn {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.CTA .row {
+  padding: 100px 0;
+}
+
+.CTA .row .col-md-6 h2 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.CTA .row .col-md-6 p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.CTA .row .col-md-6 .btn {
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  border: solid transparent;
+  background-color: #FCD980;
+  border-radius: 41px;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=working.css.map */

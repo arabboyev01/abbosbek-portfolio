@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.heading .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.heading .row .col-md {
+  margin-top: 128px;
+}
+
+.heading .row .col-md h2 {
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 600;
+}
+
+.heading .row .col-md p {
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.page-blog .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.page-blog .row .col-md-4 h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+}
+
+.page-blog .row {
+  margin-bottom: 80px;
+}
+
+.page-blog .row .col-md-4 .card {
+  border: solid transparent;
+  text-align: start;
+}
+
+.page-blog .row .col-md-4 .card label {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.page-blog .row .col-md-4 .card h6 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.page-blog .row .col-md-4 .card p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.page-blog .row .col-md-4 .card .btn {
+  line-height: 28px;
+  font-weight: 400;
+  text-align: start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=page.css.map */

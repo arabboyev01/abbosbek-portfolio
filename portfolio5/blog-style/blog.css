@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.blog-header .row {
+  padding-top: 130px;
+  margin-left: 200px;
+}
+
+.blog-header .row .col-md-8 h6 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.blog-header .row .col-md-8 h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.blog-header .row .col-md-8 p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+@media (max-width: 920px) {
+  .blog-header .row {
+    padding-top: 50px;
+    margin-left: auto;
+  }
+}
+
+.blog-info .row {
+  padding-top: 50px;
+}
+
+.blog-info .row .col-md-8 {
+  border-bottom: solid #282938;
+  padding: 32px 0;
+}
+
+.blog-info .row .col-md-8 .d-flex {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.blog-info .row .col-md-8 .d-flex label {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.blog-info .row .col-md-8 .d-flex h6 {
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.blog-article .row .col-md-6 h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  margin-bottom: 12px;
+}
+
+.blog-article .row .col-md-6 p {
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.blog-list .row {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 96px;
+}
+
+.blog-list .row .col-md-8 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+  border-top: solid #282938;
+  border-bottom: solid #282938;
+}
+
+.blog-list .row .col-md-8 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.blog-list .row .col-md-8 ul li :hover {
+  color: #2405F2;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.blog-list .row .col-md-8 ul li a {
+  color: #282938;
+  text-decoration: none;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=blog.css.map */
