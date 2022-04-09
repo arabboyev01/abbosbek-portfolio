@@ -615,6 +615,14 @@ header nav .btn-primar {
     font-size: 22px;
   }
 }
+@media (max-width: 300px) {
+  .worked .d-flex .left-title {
+    padding-bottom: 0;
+  }
+  .worked .d-flex .left-title ul li .btnn{
+    font-size: 18px;
+  }
+}
 
 .tab--active {
   color: #65ffca !important;
@@ -717,11 +725,18 @@ header nav .btn-primar {
             box-shadow: 0, 0, 0 transparent;
   }
   .templates .row .col-md-3 {
-    margin: 18px 0;
+    padding: 18px 0;
   }
   .templates .row .col-md-3 .card {
     margin: auto;
     padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 986px) {
+  .templates .row.col-md-3 .card{
+      margin: auto;
+      padding: 0;
   }
 }
 
@@ -759,7 +774,12 @@ header nav .btn-primar {
 
 @media (max-width: 986px) {
   .contact .col {
-    padding: 50px;
+    padding: 50px 0;
+  }
+}
+@media (max-width: 300px) {
+  .contact .col {
+    padding: 20px 0;
   }
 }
 
