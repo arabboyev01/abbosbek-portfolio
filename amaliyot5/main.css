@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0,0,0);
+}
+/*navbar*/
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*end of navbar*/
+
+
+/*main section*/
+.main{
+    width: 100%;
+    height: 70vh;
+    background:url(images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+
+.main h1 {
+    font-size: 75px;
+    font-family: 'Raleway', sans-serif;
+}
+@media(max-width:730px){
+    .main h1 {
+        font-size: 25px;
+    }
+    .main p {
+        font-size: 14px;
+    }
+    
+}
+
+/*end of main section*/
+
+/*service */
+#service .row{
+    padding: 0 1000px;
+}
+@media(max-width:730px){
+    #service .row{
+        padding: 0 50px;
+    }
+    #service .row p{
+        font-size: 12px;
+    }
+}
+/* end of service */
+
+/*video*/
+#video {
+    height: 25vh;
+    background: url(images/brooke-lark-uarQNKJUdJk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,.5);
+}
+/*end of video*/
+
+/*about us */ 
+@media(max-width:730px) {
+    #aboutUs p {
+        padding: 0 50px;
+    }
+}
+/*end of about us */ 
+
+/*testeminial*/
+#testemonial{
+    height: auto;
+    background-color: #f8f8f8;
+}
+#testemonial  .col-md-3{
+    background-color: #333;
+    border-radius: 5px;
+    transition: .5s;
+    box-shadow: 2px 2px 15px #000;
+}
+#testemonial  .col-md-3:hover{
+    transform: translateY(-10px);
+}
+#testemonial  .col-md-3 img{
+      border-radius: 10px;
+      margin-bottom: 20px;
+}
+   
+
+
+/*end of testeminial*/
+/*apps*/
+#apps{
+    width: 100%;
+    background-color: rgb(78, 78, 255);
+}
+#apps .row h3{
+    font-size:35px;
+}
+.buttons {
+    padding-top: 50px;
+}
+.buttons .button {
+    border: none;
+    border: .1em solid  white;
+    padding: .5em 1.5em;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+@media(max-width:730px){
+    #apps .row{
+        justify-content: center;
+        text-align: center;
+    }
+    #apps .row h3{
+        font-size:22px;
+    }
+    .buttons {
+        padding-left: 15%;
+    }
+}
+/*end of apps*/
+
+/*footer*/
+.foot-pages{
+    height: 80vh !important;
+    background-image: url(images/lily-banse--YHSwy6uqvk-unsplash.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.dark-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0, .5);
+}
+
+.col-lg-3 {
+    background-color: #333;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #f8f8f8;
+}
+.foot-pages .col-md-3:hover  {
+    transform: translateY(-10px) !important;
+}
+hr{
+    box-shadow: 1px 1px 10px #f8f8f8; 
+}
+@media(max-width:730px){
+    .col-lg-3 {
+        margin-bottom: 50px;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+    }
+    .foot-pages{
+        height: 145vh !important;
+    }
+}
+/*end of footer*/
+
+/*FAQ*/
+#FAQ .number{
+    border: .1em solid #f8f8f8;
+    width: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: .5em 1.4em;
+    border-radius: 50%;
+    color: black;
+    font-size: 22px;
+}
+#FAQ  hr{
+    
+    box-shadow: 2px 2px 20px #000;
+}
+/*end of FAQ */
