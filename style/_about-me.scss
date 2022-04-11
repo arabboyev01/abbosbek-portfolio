@@ -1,0 +1,83 @@
+.about-me{
+    background-color: var(--dark-navy);
+    padding-top: 100px;
+    overflow-x: hidden;
+    .row{
+        .col-lg-4{
+            .d-flex{
+                h1{
+                    color: var(--white);
+                    font-size: 48px;
+                    line-height:68px;
+                    font-weight: 600;
+                }
+                div ::after{
+                   content:"";
+                   width: 2rem;
+                   height: 2px;
+                   background-color: var(--white);
+                   position: inherit;
+                }
+            }
+            p{
+                color: var(--dark-slate);
+                font-weight: 400;
+                line-height: 24px;
+                font-size: 18px;
+                padding: 28px 0 0 0;
+            }
+            img:hover {
+                box-shadow: 10px 1px 20px rgb(230, 241, 255);
+                transform: translateY(-7px);
+            }
+            img{
+                transition: all 1s;
+                border: .3rem solid;
+                border-color: rgb(101,255,202);
+                border-radius:4px;
+                box-shadow:1px 1px 1px rgb(101,255,202);
+            }
+            .col-sm-3{
+                ul{
+                    list-style-type: none;
+                    li{
+                        color: var(--white);
+                    i{
+                        color: rgb(101,255,202);
+                    }}
+                }
+            }
+        }
+    }
+}
+@media (max-width: 986px){
+    .about-me{
+        padding: 40px 38px 0 38px;
+     .flex-mobile {
+         .col-sm-3{
+         display:flex !important;
+        }
+     }
+    }
+}
+@media(max-width: 430px){
+    .about-me{
+        .row{
+            .col-lg-4{
+                .d-flex{
+                    h1{
+                    font-size: 32px;
+                    line-height:48px;
+                   }
+                }
+                .flex-mobile{
+                   display: grid !important;
+                   grid-template-columns: 1fr 1fr 1fr;
+                   padding: 26px 0;
+                }
+                
+            }
+        }
+    }
+}
+    

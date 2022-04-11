@@ -1,0 +1,141 @@
+header{
+    nav{
+        background-color:var(--dark-navy);
+        .navbar-brand{
+            padding-top: 25px;
+            .stiky__img{
+           height: 60px;
+           width: 60px;
+            }
+        }
+        .navbar-collapse{
+            justify-content: center;
+            text-align: center;
+            .navbar-nav{
+                .nav-item {
+                    padding: 0 1rem;
+                    
+                    :hover{
+                    color: rgb(101,255,202) !important;
+                    text-decoration: underline;
+  
+                    }
+                    .nav-link{
+                        color: rgb(182, 193, 222);
+                        transition:  .2s;   
+                    }
+                }
+            }
+        }
+        .btn-primar{
+            color: rgb(101,255,202);
+            background-color: transparent;
+            border-color:rgb(101,255,202);
+            margin-left: 228px;
+            font-family: 'Fira Mono', monospace;
+        }
+    }
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    filter: blur(.4px);
+    background: rgba(2, 12, 33, 0.9);
+    height: 4.1rem;
+    width:100%;
+    z-index: 2;
+    box-shadow: 1px 1px 5px #000;
+    .stiky__img{
+           height: 30px;
+           width: 30px;
+            }
+}
+.cookie-message{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    background-color:var(--dark-slate);
+    padding: 0 1rem 1rem 0;
+    width:100%;
+    z-index: 2;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px rgb(230, 241, 255);
+}
+.hidden{
+    display: none;
+}
+.btn--close-cookie{
+    color: rgb(101,255,202);
+    background-color: transparent;
+    border-color:rgb(101,255,202);
+    font-family: 'Fira Mono', monospace;
+    margin-top: 1rem;
+    
+}
+#openPopup:focus {
+                 outline: none;
+               }
+
+
+#loading {
+position: fixed;
+top: 0;
+left: 0;
+padding-top: 100px;
+text-align: center;
+background-color: white;
+width: 100%;
+height: 100%;
+color: black;
+z-index: 9000;
+}
+#loadingimg {
+position: absolute;
+top: 0;
+left: 0;
+padding-top: 500px;
+text-align: center;
+width: 100%;
+height: 100%;
+color: black;
+z-index: 9000;
+}
+@media(max-width: 430px){
+    header{
+       nav{
+           z-index: 100;
+           .navbar-brand{
+               padding-top: 10px;
+               .stiky__img{
+                   width: 45px;
+                   height: 45px;
+               }
+           }
+           .navbar-collapse{
+              .nav-link{
+                 font-size: 18px; 
+                }
+                .btn-primar{
+               margin-left:0;
+        }
+           }
+       } 
+    }
+    .cookie-message{
+    padding-top: 4px;
+    padding: 0 1rem ;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    box-shadow: 0px 0px 4px rgb(230, 241, 255);
+}
+}
